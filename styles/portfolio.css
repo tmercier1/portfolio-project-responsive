@@ -19,12 +19,13 @@ p {
     padding: 50px 20px;
 }
 .hero h1 {
-    font-size: 72px;
+    font-size: 96px;
     font-weight: bold;
     margin: 20px 0;
 }
 .hero p {
-    font-weight: normal;
+    font-size: 48px;
+    font-weight: lighter;
 }
 .navigation-links {
     display: flex;
