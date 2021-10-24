@@ -39,14 +39,14 @@ p {
     box-shadow: var(--box-shadow);
     color: var(--secondary-color);
   }
-  .navigation-links a:hover {
-      background-color: var(--secondary-color);
-      color: #191970;
+.navigation-links a:hover {
+    background-color: var(--secondary-color);
+    color: #191970;
   }
-  .homepage {
-      margin: 20px 0;
+.homepage {
+    margin: 20px 0;
   }
-  .homepage p {
+.homepage p {
     text-align: left;
 }
 .learn-more-link {
