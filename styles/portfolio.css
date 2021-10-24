@@ -23,6 +23,11 @@ p {
 .hero p {
     font-weight: normal;
 }
+.navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
 .navigation-links a {
     border-radius: 4px;
     padding: 10px 15px;
@@ -31,6 +36,7 @@ p {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: var(--secondary-color);
+    justify-content: center;
   }
   .navigation-links a:hover {
       background-color: var(--secondary-color);
