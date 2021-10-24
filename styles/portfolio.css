@@ -39,7 +39,6 @@ p {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: var(--secondary-color);
-    justify-content: center;
   }
   .navigation-links a:hover {
       background-color: var(--secondary-color);
