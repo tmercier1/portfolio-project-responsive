@@ -18,6 +18,7 @@ p {
 .hero h1 {
     font-size: 58px;
     font-weight: bold;
+    margin: 20px 0;
 }
 .hero p {
     font-weight: lighter;
@@ -30,7 +31,6 @@ p {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: var(--secondary-color);
-    font-size: small;
   }
   .navigation-links a:hover {
       background-color: var(--secondary-color);
