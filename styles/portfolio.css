@@ -16,12 +16,12 @@ p {
     padding: 50px 20px;
 }
 .hero h1 {
-    font-size: 64px;
+    font-size: 72px;
     font-weight: bold;
     margin: 20px 0;
 }
 .hero p {
-    font-weight: lighter;
+    font-weight: normal;
 }
 .navigation-links a {
     border-radius: 4px;
