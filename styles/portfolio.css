@@ -4,9 +4,6 @@
     --secondary-color: white;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-h1, p {
-    text-align: center;
-}
 h1 {
     font-family: 'Playfair Display', serif;
 }
@@ -21,10 +18,12 @@ p {
 .hero h1 {
     font-size: 96px;
     font-weight: bold;
+    text-align: center;
 }
 .hero p {
     font-size: 48px;
     font-weight: lighter;
+    text-align: center;
 }
 .navigation-links {
     display: flex;
@@ -44,4 +43,12 @@ p {
       background-color: var(--secondary-color);
       color: #191970;
   }
-
+  .homepage {
+      margin: 20px 0;
+  }
+  .homepage p {
+    text-align: left;
+}
+.learn-more-link {
+text-decoration: none;
+}
