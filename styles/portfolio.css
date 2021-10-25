@@ -63,3 +63,6 @@ p {
     box-shadow: var(--box-shadow);
     color: var(--secondary-color);
 }
+.homepage img {
+    width: auto;
+}
