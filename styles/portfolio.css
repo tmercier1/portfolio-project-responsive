@@ -54,6 +54,9 @@ p {
     font-size: 28px;
     text-align: justify;
 }
+.homepage img {
+    justify-content: center;
+}
 .learn-more-link {
   border-radius: 4px;
     padding: 10px 15px;
