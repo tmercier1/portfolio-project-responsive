@@ -49,10 +49,12 @@ p {
   .homepage h2 {
       font-size: 40px;
       font-weight: bold;
+      margin: 0;
   }
 .homepage p {
     font-size: 28px;
-    text-align: left;
+    text-align: justify;
+    margin: 0;
 }
 .learn-more-link {
   border-radius: 4px;
