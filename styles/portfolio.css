@@ -55,7 +55,7 @@ p {
     text-align: justify;
 }
 .homepage img {
-    justify-content: center;
+    display: flex;
 }
 .learn-more-link {
   border-radius: 4px;
