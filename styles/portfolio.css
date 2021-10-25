@@ -44,6 +44,7 @@ p {
     color: #191970;
   }
 .homepage {
+    display: flex;
     margin: 20px 20px;
   }
 .homepage h2 {
@@ -53,9 +54,6 @@ p {
 .homepage p {
     font-size: 28px;
     text-align: justify;
-}
-.homepage img {
-    display: flex;
 }
 .learn-more-link {
   border-radius: 4px;
