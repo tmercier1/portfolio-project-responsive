@@ -46,22 +46,38 @@ p {
 .homepage {
     margin: 20px 20px;
   }
-  .homepage h2 {
+.homepage h2 {
       font-size: 40px;
       font-weight: bold;
-      margin: 0;
   }
 .homepage p {
     font-size: 28px;
     text-align: justify;
-    margin: 0;
 }
 .learn-more-link {
   border-radius: 4px;
-    padding: 5px 10px;
+    padding: 10px 15px;
     text-decoration: none;
     text-transform: capitalize;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: var(--secondary-color);
 }
+@media (max-width: 576px) {
+    .homepage img {
+      display: block;
+    }
+    .homepage h2 {
+        text-align: center;
+    }
+    .homepage p {
+        text-align: center;
+    }
+    .homepage a {
+        display: flex;
+        justify-content: center;
+    }
+    .icon {
+        visibility: hidden;
+    }
+  }
