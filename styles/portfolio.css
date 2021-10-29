@@ -4,7 +4,7 @@
     --secondary-color: white;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-h1 {
+h1, h2 {
     font-family: 'Playfair Display', serif;
 }
 p {
@@ -16,12 +16,12 @@ p {
     padding: 50px 20px;
 }
 .hero h1 {
-    font-size: 96px;
+    font-size: 72px;
     font-weight: bold;
     text-align: center;
 }
 .hero p {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: lighter;
     text-align: center;
 }
@@ -67,6 +67,28 @@ p {
     background-color: var(--secondary-color);
     color: #191970;
 }
+
+.about-hero {
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    padding: 50px 20px;
+}
+.about-hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.about-hero h2 {
+    font-size: 24px;
+    text-align: center;
+}
+.about-hero p {
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 30px 0;
+    text-align: center;
+}
+
 @media (max-width: 960px) {
     .homepage img {
       display: block;
@@ -84,4 +106,15 @@ p {
     .icon {
         visibility: hidden;
     }
+  }
+  .gallery-text {
+      margin: 20px 0;
+      text-align: center;
+  }
+  .photo-carousel h2{
+      text-align: center;
+  }
+  .photo-carousel {
+      height: auto;
+      width: 100%;
   }
