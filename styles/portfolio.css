@@ -93,6 +93,9 @@ p {
     .homepage img {
       display: block;
     }
+    .homepage h1 {
+        text-align: center;
+    }
     .homepage h2 {
         text-align: center;
     }
@@ -108,6 +111,7 @@ p {
     }
   }
   .gallery-text {
+      font-weight: bold;
       margin: 20px 0;
       text-align: center;
   }
