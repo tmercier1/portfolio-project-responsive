@@ -113,11 +113,33 @@ p {
   text-align: center;
 }
 .product-text-sub {
-color: var(--background-color);
+    color: var(--background-color);
   font-size: 12px;
   font-weight: lighter;
   text-align: center;
 }
+#contact {
+    text-align: center;
+}
+.email {
+    color: var(--background-color);
+}
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+  }
+  .number {
+      color: var(--background-color);
+  }
+  .phone-number {
+      margin: 20px 0;
+  }
+  .address {
+      color: var(--background-color);
+  }
 
 @media (max-width: 960px) {
     .homepage img {
