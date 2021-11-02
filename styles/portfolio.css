@@ -4,7 +4,7 @@
     --secondary-color: white;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-h1, h2 {
+h1, h2, h4 {
     font-family: 'Playfair Display', serif;
 }
 p {
@@ -56,12 +56,12 @@ p {
 }
 .learn-more-link {
   border-radius: 4px;
-    padding: 10px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
-    background: var(--primary-color);
-    box-shadow: var(--box-shadow);
-    color: var(--secondary-color);
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
 }
 .learn-more-link:hover {
     background-color: var(--secondary-color);
@@ -93,7 +93,7 @@ p {
     margin: 20px 0;
     text-align: center;
 }
-.photo-carousel h2{
+.photo-carousel h2 {
     text-align: center;
 }
 .photo-carousel {
@@ -131,22 +131,57 @@ p {
     color: var(--primary-color);
     font-size: 28px;
     text-decoration: none;
-  }
-  .number {
-      color: var(--background-color);
-  }
-  .phone-number {
-      margin: 20px 0;
-  }
-  .address {
-      color: var(--background-color);
-  }
-  .logo {
-      max-width: 70px;
-    }
-    .active {
-        color: var(--background-color) !important;
-    }
+}
+.number {
+    color: var(--background-color);
+}
+.phone-number {
+    margin: 20px 0;
+}
+.address {
+color: var(--background-color);
+}
+.logo {
+    max-width: 70px;
+}
+.active {
+    color: var(--background-color) !important;
+}
+footer {
+    margin: 60px 0;
+}
+footer .contact-box {
+    background: var(--background-color);
+    border-radius: 10px;
+    padding: 30px 120px;
+}
+footer .contact-box p {
+    margin: 0;
+}
+footer .email-link {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+footer .email-link:hover {
+    color: var(--background-color)
+}
+footer .social-links a {
+    background: var(--background-color);
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 14px;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+    color: white;
+    background: var(--primary-color);
+}
+footer h4 {
+    font-size: 48px;
+}
 
 @media (max-width: 960px) {
     .homepage img {
@@ -167,5 +202,14 @@ p {
     }
     .icon {
         visibility: hidden;
+    }
+    footer .contact-box {
+        padding: 30px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 16px;
     }
   }
