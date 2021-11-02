@@ -141,6 +141,12 @@ p {
   .address {
       color: var(--background-color);
   }
+  .logo {
+      max-width: 70px;
+    }
+    .active {
+        color: var(--background-color) !important;
+    }
 
 @media (max-width: 960px) {
     .homepage img {
