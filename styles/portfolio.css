@@ -4,7 +4,7 @@
     --secondary-color: white;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-h1, h2, h4 {
+h1, h2, h3 {
     font-family: 'Playfair Display', serif;
 }
 p {
@@ -179,8 +179,11 @@ footer .social-links a:hover {
     color: white;
     background: var(--primary-color);
 }
-footer h4 {
+footer h3 {
     font-size: 48px;
+}
+footer p {
+    font-size: 12px;
 }
 
 @media (max-width: 960px) {
@@ -206,7 +209,7 @@ footer h4 {
     footer .contact-box {
         padding: 30px;
     }
-    h4 {
+    h3 {
         font-size: 20px;
     }
     .btn {
